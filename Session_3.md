@@ -1,3 +1,5 @@
+# 交大密院Deep learning学习手册
+# # UM-SJTU-JI Deep learning Hands-on Tutorial
 # Session 3 - Convolutional Neural Networks (CNNs)
 
 ## Table of Contents
