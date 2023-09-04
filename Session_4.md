@@ -148,13 +148,6 @@ In this visualization, the blue line represents the input sequence, the red poin
 
 ---
 
-## Conclusion
-
-In this session, we extended our model to include evaluation on test data. Understanding how well your model performs on unseen data is crucial for assessing its generalization ability.
-
-Feel free to experiment with the model architecture, hyperparameters, or try with different types of time series data to deepen your understanding of LSTMs.
-
-## Conclusion
 
 In this session, you've learned how to build a simple LSTM network to predict future values of a time series sequence. This synthetic example should give you a foundational understanding of how to work with LSTM networks for more complex sequence-based tasks.
 
