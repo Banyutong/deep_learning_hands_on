@@ -1,9 +1,7 @@
 # 交大密院Deep learning上手手册
-Certainly! Here's a hands-on Deep Learning tutorial using PyTorch, in Markdown format:
 
----
 
-# Simple Deep Learning Tutorial with PyTorch
+# Session 1: Simple Deep Learning Tutorial with PyTorch
 
 ## Table of Contents
 
@@ -86,6 +84,37 @@ X_test = torch.tensor([[0.1, 0.0], [0.0, 0.9], [1.1, 0.0], [0.9, 1.0]], dtype=to
 
 ### Step 3: Define the Model
 
+In this step, we'll define the architecture of the neural network we're building. Here's how we'll break it down:
+
+#### Initialize the Model Class
+We define a Python class called `SimpleNN` that inherits from `nn.Module`, which is the base class for all neural network modules provided by PyTorch.
+
+```python
+class SimpleNN(nn.Module):
+```
+
+#### Constructor (`__init__` method)
+In the constructor, we initialize two linear layers using `nn.Linear()`. The first layer (named `layer1`) accepts input with 2 features and outputs 2 features. The second layer (`layer2`) takes 2 features as input and returns 1 output feature.
+
+```python
+    def __init__(self):
+        super(SimpleNN, self).__init__()
+        self.layer1 = nn.Linear(2, 2)
+        self.layer2 = nn.Linear(2, 1)
+```
+
+#### Forward Method
+The `forward` method defines the forward pass for this network. We use the sigmoid activation function (`torch.sigmoid()`) for the output of each layer.
+
+```python
+    def forward(self, x):
+        x = torch.sigmoid(self.layer1(x))
+        x = torch.sigmoid(self.layer2(x))
+        return x
+```
+
+Here's the complete code for the model definition:
+
 ```python
 class SimpleNN(nn.Module):
     def __init__(self):
@@ -101,9 +130,30 @@ class SimpleNN(nn.Module):
 
 ---
 
-## Training and Evaluation
-
 ### Step 4: Initialize the Model and Define Loss and Optimizer
+
+#### Initialize the Model
+We initialize an instance of the `SimpleNN` model. At this point, PyTorch will also initialize the weights and biases for each layer.
+
+```python
+model = SimpleNN()
+```
+
+#### Define Loss Function
+The loss function (`criterion`) calculates how far the model's predictions are from the true values. We use Mean Squared Error Loss (MSE Loss) for this example, which is suitable for regression problems.
+
+```python
+criterion = nn.MSELoss()
+```
+
+#### Define Optimizer
+The optimizer adjusts the weights of the network to minimize the loss. We use Stochastic Gradient Descent (SGD) with a learning rate of 0.1.
+
+```python
+optimizer = optim.SGD(model.parameters(), lr=0.1)
+```
+
+Here's the complete code for this step:
 
 ```python
 model = SimpleNN()
@@ -147,3 +197,7 @@ In this tutorial, we walked through setting up a Python environment, installing 
 ---
 
 That's the end of the tutorial! I hope you found it helpful.
+
+
+
+
