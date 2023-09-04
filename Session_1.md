@@ -1,4 +1,4 @@
-# 交大密院Deep learning上手手册
+# 交大密院Deep learning学习手册
 # # UM-SJTU-JI Deep learning Hands-on Tutorial
 
 
