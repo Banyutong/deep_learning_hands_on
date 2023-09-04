@@ -147,7 +147,7 @@ plt.show()
 In this visualization, the blue line represents the input sequence, the red point is the actual future value, and the green point is the predicted future value.
 
 ---
-
+### Conclusion
 
 In this session, you've learned how to build a simple LSTM network to predict future values of a time series sequence. This synthetic example should give you a foundational understanding of how to work with LSTM networks for more complex sequence-based tasks.
 
