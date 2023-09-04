@@ -1,6 +1,4 @@
----
-
-# UM_SJTU JI Deep learning Hands on Tutorial: Session 2: MNIST Classification
+# UM-SJTU-JI Deep learning Hands on Tutorial: Session 2: MNIST Classification
 
 ## Table of Contents
 
