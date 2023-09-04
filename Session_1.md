@@ -1,4 +1,5 @@
 # 交大密院Deep learning上手手册
+# # UM-SJTU-JI Deep learning Hands-on Tutorial
 
 
 # Session 1: Simple Deep Learning Tutorial with PyTorch
