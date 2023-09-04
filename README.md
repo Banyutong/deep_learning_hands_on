@@ -35,6 +35,11 @@
 4. **Neural Networks and Deep Learning by Michael Nielsen**
    - An online book that is available for free.
    - [Link to Book](http://neuralnetworksanddeeplearning.com/)
+  
+5. **李沐 动手学深度学习 （Strongly Recommended!）**
+   - Book + code + Chinese available.
+   - [Link to Book](https://zh-v2.d2l.ai/)
+  
 
 ---
 
