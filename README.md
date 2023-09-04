@@ -1,4 +1,5 @@
 # 交大密院Deep Learning学习手册
+# UM-SJTU-JI Deep learning Hands-on Tutorial
 
 Please find the hands-on tutorials of different sessions in corresponding markdown files. (e.g. Session_1.md)
 
