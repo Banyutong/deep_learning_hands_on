@@ -1,1 +1,1 @@
-# deep_learning_hands_on
+# 交大密院Deep learning上手手册
