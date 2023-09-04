@@ -1,10 +1,10 @@
 # 交大密院Deep Learning学习手册
 
-# Please find the hands-on tutorials of different sessions in corresponding markdown files. (e.g. Session_1.md)
+## Please find the hands-on tutorials of different sessions in corresponding markdown files. (e.g. Session_1.md)
 
 # Session 0: 在开始写代码之前，分享一些学习资源
 
-# Before you start to code, this session is about some recommended resources for Deep Learning
+## Before you start to code, this session is about some recommended resources for Deep Learning
 
 ## Table of Contents
 
