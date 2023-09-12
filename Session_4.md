@@ -61,8 +61,8 @@ class TimeSeries_LSTM(nn.Module):
         self.fc = nn.Linear(50, 1)  # 50 input features, 1 output feature
 
     def forward(self, x):
-        h_0 = torch.zeros(1, x.size(0), 50)  # Initial hidden state
-        c_0 = torch.zeros(1, x.size(0), 50)  # Initial cell state
+        h_0 = torch.zeros(1, x.size(1), 50)  # Initial hidden state
+        c_0 = torch.zeros(1, x.size(1), 50)  # Initial cell state
         out, _ = self.lstm(x, (h_0, c_0))
         out = self.fc(out[:, -1, :])
         return out
