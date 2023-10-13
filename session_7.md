@@ -1,4 +1,5 @@
-# Deep Learning Tutorial with PyTorch: Session 7 - Image Reconstruction using Variational Autoencoder (VAE)
+# UM-SJTU-JI Deep learning Hands-on Tutorial 
+# Session 7 - Image Reconstruction using Variational Autoencoder (VAE)
 
 ## Table of Contents
 
