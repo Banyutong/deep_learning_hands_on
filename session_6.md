@@ -1,4 +1,5 @@
-# Deep Learning Tutorial with PyTorch: Session 6 - Reinforcement Learning on OpenAI Gym Task
+# UM-SJTU-JI Deep learning Hands-on Tutorial 
+# Session 6 - Reinforcement Learning on OpenAI Gym Task
 
 ## Table of Contents
 
