@@ -1,4 +1,5 @@
-# Deep Learning Tutorial with PyTorch: Session 8 - Image Generation using Generative Adversarial Networks (GAN)
+# UM-SJTU-JI Deep learning Hands-on Tutorial 
+# Session 8 - Image Generation using Generative Adversarial Networks (GAN)
 
 ## Table of Contents
 
