@@ -1,4 +1,7 @@
-                                                                                           ![logo](logo.png)
+<p align="left">
+  <img src="logo.png" width="300" title="hover text">
+</p>
+
 # 交大密院Deep Learning学习手册 
 # UM-SJTU-JI Deep learning Hands-on Tutorial
 
