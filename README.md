@@ -22,7 +22,7 @@ Before you start to code, this session is about some recommended resources to st
 
 ## Online Courses
 
-1. **MIT Introduction to Deep Learning （Strongly Recommended! If you only have time for one tutorial please watch this one）**
+1. **MIT Introduction to Deep Learning （Strongly Recommended! If you only have time for one tutorial, please watch this one）**
    - A free course offered by MIT.
    - [Link to Course](http://introtodeeplearning.com/)
 
