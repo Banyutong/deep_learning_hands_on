@@ -138,3 +138,6 @@ Before you start to code, this session is about some recommended resources to st
 ---
 
 This is by no means an exhaustive list but should serve as a good starting point for diving into the field of deep learning.
+
+---
+This github repo is maintained by [Yutong Ban 班雨桐 @JI](https://people.csail.mit.edu/yban/index.html), Chongye Yang 杨崇烨 @JI, Kunyi Yang 杨坤燚 @JI, Junjie Liu 刘俊杰 @ JI.  
