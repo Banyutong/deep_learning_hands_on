@@ -1,4 +1,4 @@
-![logo](logo.jpeg)
+                                                                                           ![logo](logo.png)
 # 交大密院Deep Learning学习手册 
 # UM-SJTU-JI Deep learning Hands-on Tutorial
 
