@@ -142,4 +142,4 @@ This is by no means an exhaustive list but should serve as a good starting point
 
 
 ##
-© This github repo is maintained by [Yutong Ban 班雨桐 @JI](https://people.csail.mit.edu/yban/index.html), Chongye Yang 杨崇烨 @JI, Kunyi Yang 杨坤燚 @JI, Junjie Liu 刘俊杰 @ JI.  
+© This github repo is maintained by [Yutong Ban 班雨桐 @JI](https://people.csail.mit.edu/yban/index.html), Chongye Yang 杨崇烨 @JI, [Kunyi Yang 杨坤燚 @JI](https://github.com/yangkunhi), Junjie Liu 刘俊杰 @ JI.  
