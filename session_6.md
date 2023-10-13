@@ -169,6 +169,7 @@ for episode in range(num_episodes):
 ## Evaluation and Testing
 
 ### Step 6: Test the Agent
+```
 import matplotlib.animation as animation
 
 # Create a figure and axis to display the animation
@@ -195,6 +196,7 @@ def test_agent(env, trained_agent):
     return frames
 
 # Animate frames
+
 def animate_frames(frames):
     img = plt.imshow(frames[0])  # initialize image with the first frame
     
@@ -207,14 +209,13 @@ def animate_frames(frames):
     plt.show()
 
 # Apply the functions
+
 trained_agent = q_network  # Replace with your trained Q-network
 frames = test_agent(env, trained_agent)
 animate_frames(frames)
-
+```
 ---
 
 ## Conclusion
 
-In this session, you've learned how to implement a
-
- basic Q-learning agent using PyTorch to solve a simple problem from OpenAI Gym. Reinforcement learning is a broad field with many more concepts to explore, such as policy gradients, deep Q-networks, actor-critic methods, etc. Feel free to explore more and enhance your model!
+In this session, you've learned how to implement a basic Q-learning agent using PyTorch to solve a simple problem from OpenAI Gym. Reinforcement learning is a broad field with many more concepts to explore, such as policy gradients, deep Q-networks, actor-critic methods, etc. Feel free to explore more and enhance your model!
