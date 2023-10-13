@@ -22,19 +22,17 @@ Before you start to code, this session is about some recommended resources to st
 
 ## Online Courses
 
-1. **Deep Learning Specialization by Andrew Ng on Coursera**
-   - Covers the foundations and advanced topics in deep learning.
-   - [Link to Course](https://www.coursera.org/specializations/deep-learning)
-
-2. **Fast.ai Courses**
-   - Practical deep learning courses for coders.
-   - [Link to Course](https://www.fast.ai/)
-
-3. **MIT Introduction to Deep Learning （Strongly Recommended! If you only have time for one tutorial please watch this one）**
+1. **MIT Introduction to Deep Learning （Strongly Recommended! If you only have time for one tutorial please watch this one）**
    - A free course offered by MIT.
    - [Link to Course](http://introtodeeplearning.com/)
 
+2. **Deep Learning Specialization by Andrew Ng on Coursera**
+   - Covers the foundations and advanced topics in deep learning.
+   - [Link to Course](https://www.coursera.org/specializations/deep-learning)
 
+3. **Fast.ai Courses**
+   - Practical deep learning courses for coders.
+   - [Link to Course](https://www.fast.ai/)
 
 
 ---
