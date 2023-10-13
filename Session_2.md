@@ -100,7 +100,7 @@ for epoch in range(5):
 
         # Print loss
         if i % 500 == 0:
-            print(f'Epoch [{epoch + 1}/5], Step [{i + 1}/len(trainloader)], Loss: {loss.item()}')
+            print(f'Epoch [{epoch + 1}/5], Step [{i + 1}/{len(trainloader)}], Loss: {loss.item()}')
 ```
 
 ### Step 6: Evaluate the Model
