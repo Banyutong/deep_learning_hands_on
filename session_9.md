@@ -1,4 +1,5 @@
-# Deep Learning Tutorial with PyTorch: Session 9 - Applying Multi-Head Attention and Transformers for Sentiment Analysis
+# UM-SJTU-JI Deep learning Hands-on Tutorial 
+# Session 9 - Applying Multi-Head Attention and Transformers for Sentiment Analysis
 
 ## Table of Contents
 
