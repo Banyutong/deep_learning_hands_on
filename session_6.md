@@ -49,7 +49,7 @@ import gym
 import matplotlib.pyplot as plt
 
 # Initialize the environment
-env = gym.make('CartPole-v1')
+env = gym.make('CartPole-v1', render_mode = 'rgb_array')
 ```
 
 ---
@@ -113,7 +113,7 @@ epsilon = 1.0
 num_episodes = 1000
 
 for episode in range(num_episodes):
-    state = env.reset()
+    state = env.reset()[0]
     done = False
     total_reward = 0
 
@@ -127,7 +127,7 @@ for episode in range(num_episodes):
             action = torch.argmax(q_values).item()
 
         # Take action
-        next_state, reward, done, _ = env.step(action)
+        next_state, reward, done, _, _ = env.step(action)
         
         # Store transition in memory
         memory.add(state, action, reward, next_state, done)
@@ -142,8 +142,10 @@ for episode in range(num_episodes):
             state_batch, action_batch, reward_batch, next_state_batch, done_batch = batch
 
             state_batch = torch.FloatTensor(np.stack(state_batch))
-            action_batch = torch.LongTensor(action_batch)
-            reward_batch = torch.FloatTensor(reward_batch)
+            action_batch = torch.LongTensor(np.array(action_batch, dtype=np.int32))
+            # action_batch = torch.LongTensor(action_batch)
+            reward_batch = torch.FloatTensor(np.array(reward_batch, dtype=np.float32))
+            # reward_batch = torch.FloatTensor(reward_batch)
             next_state_batch = torch.FloatTensor(np.stack(next_state_batch))
             not_done_mask = torch.ByteTensor(~np.array(done_batch, dtype=np.uint8))
 
@@ -169,7 +171,7 @@ for episode in range(num_episodes):
 ## Evaluation and Testing
 
 ### Step 6: Test the Agent
-```
+```python
 import matplotlib.animation as animation
 
 # Create a figure and axis to display the animation
@@ -178,19 +180,19 @@ fig, ax = plt.subplots()
 # Test the trained agent for one episode and capture frames
 def test_agent(env, trained_agent):
     frames = []
-    state = env.reset()
+    state = env.reset()[0]
     done = False
     while not done:
         # Render to RGB array and append to frames
-        frames.append(env.render(mode='rgb_array'))
+        frames.append(env.render())
         
         # Choose action
         with torch.no_grad():
-            q_values = trained_agent(torch.FloatTensor(state).unsqueeze(0))
+            q_values = trained_agent(torch.FloatTensor(np.array(state)).unsqueeze(0))
             action = torch.argmax(q_values).item()
         
         # Take action
-        state, _, done, _ = env.step(action)
+        state, _, done, _, _ = env.step(action)
     
     env.close()
     return frames

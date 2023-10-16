@@ -129,7 +129,7 @@ import matplotlib.pyplot as plt
 
 # Test the trained VAE on a batch of images
 dataiter = iter(train_loader)
-images, labels = dataiter.next()
+images, labels = next(dataiter)
 
 # Original Images
 fig, axes = plt.subplots(figsize=(12,3), ncols=6, nrows=2)
