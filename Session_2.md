@@ -14,7 +14,7 @@
 ## Introduction
 
 In this second session, we'll extend our understanding of neural networks to tackle the MNIST handwritten digit classification problem.
-
+The theoretical part of the simple Neural Network can be found in MIT course Lecture 1. Please refer to http://introtodeeplearning.com/ for more in depth understanding.
 ---
 
 ## Dataset Preparation
