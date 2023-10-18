@@ -17,6 +17,8 @@
 
 In this session, we'll deploy Transformers, particularly focusing on the Multi-Head Attention mechanism, for Sentiment Analysis on text data, categorizing it into positive or negative sentiment.
 
+The theoretical part of transformer architecture can be found in MIT course Lecture 2. Please refer to the [course official website](http://introtodeeplearning.com/)/ for more in depth understanding.
+
 ---
 
 ## Prerequisites
