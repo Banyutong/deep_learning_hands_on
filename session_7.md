@@ -17,7 +17,7 @@
 
 In this session, we will implement a Variational Autoencoder (VAE) to reconstruct images and visualize the results. VAEs are a type of generative model that learn a latent representation of input data.
 
-The theoretical part of VAE can be found in MIT course Lecture 4. Please refer to [course official website](http://introtodeeplearning.com/) for more in depth understanding.
+The theoretical part of VAE can be found in MIT course Lecture 4. You can refer to [course official website](http://introtodeeplearning.com/) for more in depth understanding.
 
 ---
 
