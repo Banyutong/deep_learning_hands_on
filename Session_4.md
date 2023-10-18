@@ -15,7 +15,7 @@
 ## Introduction
 
 In this fourth session, we'll explore Long Short-Term Memory (LSTM) Networks, a type of recurrent neural network (RNN) well-suited for sequence-based problems. We'll use a simple time series dataset to predict future values based on past observations.
-
+The theoretical part of the LSTM can be found in MIT course Lecture 2. Please refer to http://introtodeeplearning.com/ for more in depth understanding.
 ---
 
 ## Dataset Preparation
