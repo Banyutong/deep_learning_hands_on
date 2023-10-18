@@ -18,7 +18,7 @@
 ## Introduction
 
 This tutorial aims to walk you through the basics of setting up a Deep Learning environment and building a simple Neural Network model using Python and PyTorch.
-
+The theoretical part of the simple Neural Networks can be found in MIT "Introduction to Deep Learning" course Lecture 1. Please refer to http://introtodeeplearning.com/ for more in depth understanding.
 ---
 
 ## System Requirements
