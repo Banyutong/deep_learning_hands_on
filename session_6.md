@@ -17,7 +17,7 @@
 
 In this fifth session, we'll delve into reinforcement learning using PyTorch and apply it to a simple task in OpenAI Gym. We'll use the classic "CartPole" environment, where the aim is to balance a pole on a moving cart.
 
-The theoretical part of reinforcement learning can be found in MIT course Lecture 6. Please refer to the [course official website](http://introtodeeplearning.com/) for more in depth understanding.
+The theoretical part of reinforcement learning can be found in MIT course Lecture 6. You can refer to the [course official website](http://introtodeeplearning.com/) for more in depth understanding.
 
 ---
 
