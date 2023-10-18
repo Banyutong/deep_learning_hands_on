@@ -15,7 +15,7 @@
 ## Introduction
 
 In this third session, we'll explore Convolutional Neural Networks (CNNs), a type of neural network that is particularly powerful for tasks related to image recognition. We'll continue to use the MNIST dataset to compare the performance of CNNs with the previously implemented fully-connected network.
-The theoretical part of the CNNs can be found in MIT course Lecture 3. Please refer to http://introtodeeplearning.com/ for more in depth understanding.
+The theoretical part of the CNNs can be found in MIT course Lecture 3. Please refer to the [course official website](http://introtodeeplearning.com/) for more in depth understanding.
 
 ---
 
