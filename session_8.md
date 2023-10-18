@@ -17,6 +17,8 @@
 
 This session focuses on building a Generative Adversarial Network (GAN) to generate new images using the PyTorch framework, particularly focusing on the MNIST dataset.
 
+The theoretical part of GAN can be found in MIT course Lecture 4. Please refer to [course official website](http://introtodeeplearning.com/)/ for more in depth understanding.
+
 ---
 
 ## Prerequisites
